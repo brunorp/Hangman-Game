@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just testing! xD</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="header">
+		<h1>Mario </h1>
+		<img src="./img/mri.png">
+		<h1>Brosssss</h1>
+		<a href="#" onClick="window.location.href=window.location.href" class="myButton">Restart</a>
+	</div>
+	<div class="container">
+		<h1 class="title">Hangman Game!</h1>
+		<div class="jogo" id="game">
+			<span id="dica"></span>
+			<div>
+				<span>Type a letter:</span>
+				<input type="text" id="inputLetter" class="inputLetter" maxlength="1" autofocus>
+			</div>
+			<div class="div2">
+				<h2 class="letters" id="letters"></h2>
+				<h3 >Wrong letters: <span id="wLetters"></span> </h3>
+			</div>
+		</div>
+		<img src="./img/int.gif" id="imgDir" class="imgDir">
+		<img src="./img/int.gif" id="imgEsq" class="imgEsq">
+	</div>
+	<script src="game.js"></script>
+</body>
+</html>
