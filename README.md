@@ -6,7 +6,7 @@ Mario Bros hangman game developed with javascript! Have fun xD
 in cmd, choose a folder and run the command:
  
  ```bash
-  git clone https://github.com/brunorp/Tic-tac-toe.git 
+  git clone https://github.com/brunorp/Hangman-Game.git
  ``` 
 
 then open the project folder and open src/index.html file.
